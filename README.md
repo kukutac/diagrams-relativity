@@ -40,3 +40,21 @@ To compile figures.tex you need a LaTeX distribution with:
 - pgfplots
 - pgfplotstable
 - csvsimple
+
+## Usage
+
+1. (Optional) Adjust parameters in `worldlines.py`
+   - Schwarzschild radii (`rS`, `rS_bh`)
+   - Number of trajectories (`N`, `N_bh`)
+   - Integration ranges (`tmax`, etc.)
+   - Cone placement (`cone_times`)
+
+2. If you changed `rS` values, ensure the same values are set in `figures.tex`
+   (e.g. `\pgfmathsetmacro{\rs}{...}`).
+
+3. Generate the CSV data:
+   ```bash
+   python worldlines.py
+
+4. Compile the figures
+latexmk -pdf figures.tex
