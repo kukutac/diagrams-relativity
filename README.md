@@ -2,7 +2,7 @@
 
 The file figures.tex contains numerous spacetime diagrams used in an accompanying paper "Diagrammatic approaches to teaching special and general relativity".
 
-The diagrams can be used to teach relativity of simultaneity, time dilation and visualizing the causal structure of the Schwarzschild black hole.
+The diagrams can be used to teach relativity of simultaneity, time dilation and visualizing curvature through the causal structure of the Schwarzschild spacetime.
 
 The python script generates **radial free-fall trajectories** (“worldlines”) and **lightcone anchor points** and writes them to CSV files. The CSV outputs are intended to be plotted with LaTeX using TikZ/PGFPlots (see `figures.tex`).
 
