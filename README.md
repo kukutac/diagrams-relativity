@@ -1,6 +1,6 @@
 # Spacetime diagrams - simultaneity, time dilation, causal structure
 
-A sample presentation with selected figures from the paper "Diagrammatic approaches to teaching special and general relativity" is available for use and free modification (`sample_presentation/sample_presentation.pdf`)
+A sample presentation with selected figures from the paper *Diagrammatic approaches to teaching special and general relativity* is available for use and free modification: [`sample_presentation/sample_presentation.pdf`](sample_presentation/sample_presentation.pdf).
 
 The file `figures.tex` contains the spacetime diagrams used in the paper. The diagrams can be used to teach relativity of simultaneity, time dilation and visualizing the causal structure of the Schwarzschild spacetime.
 
