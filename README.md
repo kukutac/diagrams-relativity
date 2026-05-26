@@ -1,10 +1,8 @@
 # Spacetime diagrams - simultaneity, time dilation, causal structure
 
-The file figures.tex contains numerous spacetime diagrams used in an accompanying paper "Diagrammatic approaches to teaching special and general relativity". The diagrams can be used to teach relativity of simultaneity, time dilation and visualizing the causal structure of the Schwarzschild spacetime.
+A sample presentation with selected figures from the paper "Diagrammatic approaches to teaching special and general relativity" is available for use and free modification (`sample_presentation/sample_presentation.pdf`)
 
-The diagrams can be used to teach relativity of simultaneity, time dilation and visualizing curvature through the causal structure of the Schwarzschild spacetime.
-
-A sample presentation with selected figures from the paper is available for use and free modification (`sample_presentation/sample_presentation.pdf`)
+The file `figures.tex` contains the spacetime diagrams used in the paper. The diagrams can be used to teach relativity of simultaneity, time dilation and visualizing the causal structure of the Schwarzschild spacetime.
 
 The python script generates **radial free-fall trajectories** (“worldlines”) and **lightcone anchor points** and writes them to CSV files. The CSV outputs are intended to be plotted with LaTeX using TikZ/PGFPlots (see `figures.tex`).
 
